@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกี่ยวกับเรา - การประยุกต์ใช้ AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e293b;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #3b82f6;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: #e2e8f0;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #3b82f6;
+            color: #ffffff;
+        }
+
+        nav a.active {
+            background-color: #2563eb;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .profile-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 2px solid #e2e8f0;
+            max-width: 500px;
+            margin: 2rem auto;
+            text-align: center;
+            transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Hover Effect สำหรับการ์ดโปรไฟล์ */
+        .profile-card:hover {
+            border-color: #3b82f6;
+            background-color: #eff6ff;
+            transform: translateY(-4px);
+        }
+
+        .profile-card h2 {
+            color: #1e293b;
+            margin-bottom: 1rem;
+        }
+
+        .profile-card p {
+            margin: 0.5rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #059669;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 1.5rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #10b981;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #0f172a;
+            color: #94a3b8;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">AI <span>Application</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="use-cases.html">สาขาการใช้งาน</a></li>
+                <li><a href="about.html" class="active">เกี่ยวกับเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="profile-card">
+            <h2>ข้อมูลผู้จัดทำ</h2>
+            <p><strong>ชื่อ-นามสกุล:</strong> [ใส่ชื่อ-นามสกุลของคุณ]</p>
+            <p><strong>รหัสประจำตัว:</strong> [ใส่รหัสประจำตัวนักเรียน/นักศึกษา]</p>
+            <p><strong>แผนกวิชา:</strong> คอมพิวเตอร์ธุรกิจและเทคโนโลยีสารสนเทศ</p>
+            <p><strong>เสนอ:</strong> [ใส่ชื่ออาจารย์ผู้สอน]</p>
+            <a href="index.html" class="btn">กลับหน้าแรก</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 เว็บไซต์การประยุกต์ใช้ AI</p>
+    </footer>
+
+</body>
+</html>
